@@ -1,6 +1,7 @@
 body {
   background-color: #3d5a80;
   color: #ee6c4d;
+  font-size: large;
 }
 
 #javascript {
@@ -29,6 +30,7 @@ body {
 
 #output {
   display: none;
+  font-size: larger;
 }
 
 .range input {
@@ -56,6 +58,8 @@ div {
 
 h1 {
   text-align: center;
+  text-decoration: underline;
+  margin: 1rem;
 }
 
 img {
@@ -90,6 +94,7 @@ img {
 
 h4 {
   margin: 1rem;
+  text-decoration: underline;
 }
 
 button {

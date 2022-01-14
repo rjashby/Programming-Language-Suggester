@@ -6,7 +6,7 @@ $(document).ready(function() {
     const song = $("input:radio:checked").val();
     const beverage = document.getElementById("beverage").value;
     const cool = $("input#cool").val();
-    const phone = parseInt($("input#phone").val());
+    const phone = $("input#phone").val();
     const santa = $("input#santa").val();
     const color = $("input#color").val();
     $("#javascript").hide();
@@ -14,17 +14,11 @@ $(document).ready(function() {
     $("#swift").hide();
     $("#csharp").hide();
     $("#toocool").hide();
-    console.log(name);
-    console.log(age);
-    console.log(song);
-    console.log(beverage);
-    console.log(cool);
-    console.log(phone);
-    console.log(santa);
-    console.log(color);
-
+    $("#old").hide();
     if (cool >= 90) {
       $("#toocool").show();
+    } else if (age >= 70) {
+      $("#old").show();
     } else {
       if (song === "shoot" && beverage === "beer") {
         $("#javascript").show();

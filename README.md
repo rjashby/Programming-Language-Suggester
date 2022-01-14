@@ -25,7 +25,9 @@
 
 ## Description 
 
-_This site_ 
+_This site will allow the user to input data on various form fields, including fields for their name, age, favorite AC/DC song, favorite beverage, coolness factor, phone number, birth date, and color of choice. Based upon the user input, this site will suggest a computer programming language to study. This will be done by a series of a branching "If...else" statements on the backend. If the user decides that they are "too cool for school," they will be met with an extremely pronounced eye roll from the one and only Liz Lemon._
+
+_The site can be reloaded as many times as the user wishes, allowing the user to change input values and receive different suggestions. Primarily the user's output will be chosen based on their song and beverage choices._
 
 ## Setup/Installation Requirements 
 

@@ -12,35 +12,42 @@
 <body>
   <div class="container">
     <h1>Pick a Language, Any Language</h1>
-    <p>Complete the Form Below to See Which Programming Language is Right for You!</p>
+    <center><p>Complete the Form Below to See Which Programming Language is Right for You!</p></center>
+    <center><img src="img/header1.png" alt="Image of various computer languages"></center>
+    <hr>
     <form id="survey">
-      <h3>Enter Your Responses</h3>
-      <div>
+      <h4>Enter Your Responses</h4>
+      <div class="custom">
         <label>Enter Your Name, You Jive Turkey</label>
-        <input type="text" class="form-control" id="name" placeholder="Name Goes Here" required>
+        <input type="text" class="form-control" id="name" placeholder="Name Goes Here:" required>
       </div>
-      <div>
+      <hr>
+      <div class="custom">
         <label>Go Ahead and Enter Your Age My Duder</label>
-        <input type="text" class="form-control" id="age" placeholder="Age Goes Here" required>
+        <input type="text" class="form-control" id="age" placeholder="Age Goes Here:" required>
       </div>
-      <p>Pick Your Favorite AC/DC Song Playa</p>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio" value="shoot" id="song" checked>
-        <label class="form-check-label">🎶 Shoot to Thrill 🎶</label>
+      <hr>
+      <div class="custom">
+        <p>Pick Your Favorite AC/DC Song Playa</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="radio" value="shoot" id="song" checked>
+          <label class="form-check-label">🎶 Shoot to Thrill 🎶</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="radio" value="back" id="song">
+          <label class="form-check-label">🎶 Back in Black 🎶</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="radio" value="thunder" id="song">
+          <label class="form-check-label">🎶 Thunderstruck 🎶</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="radio" value="highway" id="song">
+          <label class="form-check-label">🎶 Highway to Hell 🎶</label>
+        </div>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio" value="back" id="song">
-        <label class="form-check-label">🎶 Back in Black 🎶</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio" value="thunder" id="song">
-        <label class="form-check-label">🎶 Thunderstruck 🎶</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="radio" value="highway" id="song">
-        <label class="form-check-label">🎶 Highway to Hell 🎶</label>
-      </div>
-      <div class="form-group">
+      <hr>
+      <div class="custom">
         <label>Pick Your Alcoholic Bevvy of Choice</label>
         <select class="form-control" id="beverage">
           <option value="beer" selected>🍺 Brewskis</option>
@@ -49,62 +56,65 @@
           <option value="seltzer">🎉 Them Newfangled Setlzy Bois</option>
         </select>
       </div>
-      <p>How Cool Are You, On a Scale of "Kinda Sorta" to "Sique With It!"</p>
-      <div class="form-control">
+      <hr>
+      <div class="range">
+        <p>How Cool Are You, On a Scale of "Kinda Sorta" to "Too Cool for School!"</p>
         <input type="range" id="cool" min="0" max="100" step="10">
-        <label>Cool Factor</label>
+        <br>
+        <center><label>Cool Factor</label></center>
       </div>
-      <div class="form-group">
+      <hr>
+      <div class="custom">
         <label>Enter your phone number... Why? BECAUSE I SAID SO!!!</label>
         <br>
         <input type="tel" id="phone" name="phone" placeholder="Ex: 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
       </div>
-      <div class="form-group">
+      <div class="custom">
         <label>When is 🎅🏼 Santa's 🎅🏼 Actual Birthday? If you don't know this, you can't learn a programming language</label>
         <input type="date" class="form-control" id="santa">
       </div>
-      <div class="form-group">
+      <div class="custom">
         <label>Choose your favorite shade of Halo Spartan Armor Cadet?!</label>
         <input type="color" class="form-control" id="color">
       </div>
       <button type="submit" class="btn-light">Find Your Results!</button>
     </form>
-    <div class="output">
-      <div id="toocool">
-        <h4>What Do You Need Schoolin For? You're Obviously Too Cool For School.</h4>
-        <img src="img/eyeroll.gif" alt="Famous Liz Lemon eyeroll">
-        <p>“I want to roll my eyes right now but the doctor said if I keep doing it, my ocular muscles might spasm and eject my eyeballs.”</p>
-        <p> — Liz Lemon, 30 Rock</p>
-      </div>
-      <div id="old">
-        <h4>You probably know everything by now. Go help Andy with his boat.</h4>
-        <img src="img/shawshank.gif" alt="Boat by the sea">
-        <p> Dear Red. If you're reading this, you've gotten out. And if you've come this far, maybe you're willing to come a little further. You remember the name of the town, don't you?</p>
-        
-        <p>I could use a good man to help me get my project on wheels. I'll keep an eye out for you and the chessboard ready. Remember, Red, hope is a good thing, maybe the best of things, and no good thing ever dies. I will be hoping that this letter finds you, and finds you well.</p>
-        <p>Your Friend,<br> 
-        Andy</p>
-      </div>
-      <div id="javascript">
-        <h4>You Should Learn Yourself Some JavaScript!</h4>
-        <img src="img/JavaScript.jpeg" alt="JavaScript logo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nulla itaque, officia asperiores consectetur praesentium? Optio perferendis sequi, facere quam quis eos aperiam iusto voluptate, enim iste, beatae quisquam?</p>
-      </div>
-      <div id="python">
-        <h4>Python is the Language for You My Friend!</h4>
-        <img src="img/python.jpg" alt="Python logo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nulla itaque, officia asperiores consectetur praesentium? Optio perferendis sequi, facere quam quis eos aperiam iusto voluptate, enim iste, beatae quisquam?</p>
-      </div>
-      <div id="swift">
-        <h4>Looks like Swift is Right Up Your Alley!</h4>
-        <img src="img/swift.jpeg" alt="Swift logo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nulla itaque, officia asperiores consectetur praesentium? Optio perferendis sequi, facere quam quis eos aperiam iusto voluptate, enim iste, beatae quisquam?</p>
-      </div>
-      <div id="csharp">
-        <h4>C# is the Place to Be for You!</h4>
-        <img src="img/csharp.jpg" alt="C sharp logo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nulla itaque, officia asperiores consectetur praesentium? Optio perferendis sequi, facere quam quis eos aperiam iusto voluptate, enim iste, beatae quisquam?</p>
-      </div>
+    <div id="toocool">
+      <h4>What Do You Need Schoolin For? You're Obviously Too Cool For School.</h4>
+      <img src="img/eyeroll.gif" alt="Famous Liz Lemon eyeroll">
+      <br>
+      <br>
+      <p>“I want to roll my eyes right now but the doctor said if I keep doing it, my ocular muscles might spasm and eject my eyeballs.”</p>
+      <p> — Liz Lemon, 30 Rock</p>
+    </div>
+    <div id="old">
+      <h4>You probably know everything by now. Go help Andy with his boat.</h4>
+      <img src="img/shawshank.gif" alt="Boat by the sea">
+      <p> Dear Red. If you're reading this, you've gotten out. And if you've come this far, maybe you're willing to come a little further. You remember the name of the town, don't you?</p>
+      
+      <p>I could use a good man to help me get my project on wheels. I'll keep an eye out for you and the chessboard ready. Remember, Red, hope is a good thing, maybe the best of things, and no good thing ever dies. I will be hoping that this letter finds you, and finds you well.</p>
+      <p>Your Friend,<br> 
+      Andy</p>
+    </div>
+    <div id="javascript">
+      <h4>You Should Learn Yourself Some JavaScript!</h4>
+      <img src="img/JavaScript.jpeg" alt="JavaScript logo">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nulla itaque, officia asperiores consectetur praesentium? Optio perferendis sequi, facere quam quis eos aperiam iusto voluptate, enim iste, beatae quisquam?</p>
+    </div>
+    <div id="python">
+      <h4>Python is the Language for You My Friend!</h4>
+      <img src="img/python.jpg" alt="Python logo">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nulla itaque, officia asperiores consectetur praesentium? Optio perferendis sequi, facere quam quis eos aperiam iusto voluptate, enim iste, beatae quisquam?</p>
+    </div>
+    <div id="swift">
+      <h4>Looks like Swift is Right Up Your Alley!</h4>
+      <img src="img/swift.jpeg" alt="Swift logo">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nulla itaque, officia asperiores consectetur praesentium? Optio perferendis sequi, facere quam quis eos aperiam iusto voluptate, enim iste, beatae quisquam?</p>
+    </div>
+    <div id="csharp">
+      <h4>C# is the Place to Be for You!</h4>
+      <img src="img/csharp.jpg" alt="C sharp logo">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nulla itaque, officia asperiores consectetur praesentium? Optio perferendis sequi, facere quam quis eos aperiam iusto voluptate, enim iste, beatae quisquam?</p>
     </div>
   </div>
 </body>

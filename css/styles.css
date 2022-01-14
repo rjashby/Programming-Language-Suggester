@@ -1,5 +1,6 @@
 body {
-  background-color: bisque;
+  background-color: #3d5a80;
+  color: #ee6c4d
 }
 
 #javascript {
@@ -25,3 +26,36 @@ body {
 #old {
   display: none;
 }
+
+.range input {
+  width: 100%;
+}
+
+.range {
+  border: solid #293241 5px
+}
+
+.custom {
+  border: solid #293241 5px;
+}
+
+div {
+  width: 50%;
+  margin: 1rem;
+}
+
+.container {
+  border: solid #98c1d9 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+

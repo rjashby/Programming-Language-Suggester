@@ -8,6 +8,10 @@ $(document).ready(function() {
     const phone = parseInt($("input#phone").val());
     const santa = $("input#santa").val();
     const color = $("input#color").val();
+    $("#javascript").hide();
+    $("#python").hide();
+    $("#swift").hide();
+    $("#csharp").hide();
     console.log(name);
     console.log(age);
     console.log(song);

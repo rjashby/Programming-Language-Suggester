@@ -15,7 +15,7 @@ $(document).ready(function() {
     $("#csharp").hide();
     $("#toocool").hide();
     $("#old").hide();
-    
+
     if (cool >= 90) {
       $("#toocool").show();
     } else if (age >= 70) {

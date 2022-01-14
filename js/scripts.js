@@ -15,5 +15,9 @@ $(document).ready(function() {
     console.log(phone);
     console.log(santa);
     console.log(color);
+
+    if () {
+      
+    }
   });
 });

@@ -3,10 +3,10 @@ $(document).ready(function() {
     event.preventDefault;
     const name = $("input#name").val();
     const age = parseInt($("input#age").val());
-    const insert = $("input:radio:checked").val();
-    const insert = $("input#").val();
-    const insert = parseInt($("input#").val());
-    const insert = $("input#").val();
-    const insert = $("input#").val();
+    const song = $("input:radio:checked").val();
+    const beverage = $("input#beverage").val();
+    const phone = parseInt($("input#").val());
+    const santa = $("input#").val();
+    const color = $("input#").val();
   });
 });

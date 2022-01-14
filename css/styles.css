@@ -1,6 +1,6 @@
 body {
   background-color: #3d5a80;
-  color: #ee6c4d
+  color: #ee6c4d;
 }
 
 #javascript {
@@ -27,16 +27,22 @@ body {
   display: none;
 }
 
+#output {
+  display: none;
+}
+
 .range input {
   width: 100%;
 }
 
 .range {
-  border: solid #293241 5px
+  border: solid #293241 5px;
+  padding: 1rem;
 }
 
 .custom {
   border: solid #293241 5px;
+  padding: 1rem;
 }
 
 div {
@@ -50,6 +56,11 @@ div {
 
 h1 {
   text-align: center;
+}
+
+img {
+  border-radius: 2rem;
+  margin: 1rem;
 }
 
 #header img {
@@ -73,9 +84,14 @@ h1 {
   width: 65%;
 }
 
-img {
-  border-radius: 2rem;
+#messed-up {
+  display: none;
 }
 
+h4 {
+  margin: 1rem;
+}
 
-
+button {
+  margin: 1rem;
+}

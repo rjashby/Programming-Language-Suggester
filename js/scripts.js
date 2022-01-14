@@ -15,6 +15,8 @@ $(document).ready(function() {
     $("#csharp").hide();
     $("#toocool").hide();
     $("#old").hide();
+    $("#messed-up").hide();
+    $("#output").show();
 
     if (cool >= 90) {
       $("#toocool").show();
@@ -53,6 +55,8 @@ $(document).ready(function() {
         $("#python").show();
       } else if (song === "highway" && beverage === "seltzer") {
         $("#javascript").show();
+      } else {
+        $("#messed-up").show();
       }
     }
   window.scrollTo(0,document.body.scrollHeight);

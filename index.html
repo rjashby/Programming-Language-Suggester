@@ -13,14 +13,14 @@
   <div class="container">
     <h1>Pick a Language, Any Language</h1>
     <p>Complete the Form Below to See Which Programming Language is Right for You!</p>
-    <form>
+    <form id="survey">
       <h3>Enter Your Responses</h3>
       <div>
-        <label for="">Enter Your Name, You Jive Turkey</label>
+        <label>Enter Your Name, You Jive Turkey</label>
         <input type="text" class="form-control" id="name" placeholder="Name Goes Here" required>
       </div>
       <div>
-        <label for="">Go Ahead and Enter Your Age My Duder</label>
+        <label>Go Ahead and Enter Your Age My Duder</label>
         <input type="text" class="form-control" id="age" placeholder="Age Goes Here" required>
       </div>
       <p>Pick Your Favorite AC/DC Song Playa</p>
@@ -41,7 +41,7 @@
         <label class="form-check-label">🎶 Highway to Hell 🎶</label>
       </div>
       <div class="form-group">
-        <label for="">Pick Your Alcoholic Bevvy of Choice</label>
+        <label>Pick Your Alcoholic Bevvy of Choice</label>
         <select class="form-control" id="beverage" required>
           <option value="beer" selected>🍺 Brewskis</option>
           <option value="wine">🍷 Sweet Berry Wine</option>
@@ -50,16 +50,16 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="phone">Enter your phone number... Why? BECAUSE I SAID SO!!!</label>
+        <label>Enter your phone number... Why? BECAUSE I SAID SO!!!</label>
         <br>
-        <input type="tel" id="phone" name="phone" placeholder="Ex: 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <input type="tel" id="phone" name="phone" placeholder="Ex: 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
       </div>
       <div class="form-group">
-        <label for="born">When is 🎅🏼 Santa's 🎅🏼 Actual Birthday? If you don't know this, you can't learn a programming language</label>
+        <label>When is 🎅🏼 Santa's 🎅🏼 Actual Birthday? If you don't know this, you can't learn a programming language</label>
         <input type="date" class="form-control" id="santa">
       </div>
       <div class="form-group">
-        <label for="color">Choose your favorite shade of Halo Spartan Armor Cadet?!</label>
+        <label>Choose your favorite shade of Halo Spartan Armor Cadet?!</label>
         <input type="color" class="form-control" id="color">
       </div>
       <button type="submit" class="btn-light">Find Your Results!</button>

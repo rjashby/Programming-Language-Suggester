@@ -16,8 +16,8 @@ $(document).ready(function() {
     console.log(santa);
     console.log(color);
 
-    if () {
-      
+    if (a=b) {
+
     }
   });
 });

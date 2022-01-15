@@ -1,6 +1,6 @@
 body {
-  background-color: #3d5a80;
-  color: #ee6c4d;
+  background-color: #457b9d;
+  color: #f1faee;
   font-size: large;
 }
 
@@ -38,12 +38,12 @@ body {
 }
 
 .range {
-  border: solid #293241 5px;
+  border: solid #81b29a 5px;
   padding: 1rem;
 }
 
 .custom {
-  border: solid #293241 5px;
+  border: solid #81b29a 5px;
   padding: 1rem;
 }
 
@@ -53,7 +53,7 @@ div {
 }
 
 .container {
-  border: solid #98c1d9 5px;
+  border: solid #fdf0d5 5px;
 }
 
 h1 {

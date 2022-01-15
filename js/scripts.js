@@ -17,6 +17,7 @@ $(document).ready(function() {
     $("#old").hide();
     $("#messed-up").hide();
     $("#output").show();
+    $("#insert-name").text(name);
 
     if (cool >= 90) {
       $("#toocool").show();

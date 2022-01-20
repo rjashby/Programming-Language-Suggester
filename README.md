@@ -3,7 +3,7 @@
 
 #### By _**Ryan Ashby**_ 
 
-#### _A simple HTML site, which allows the user to submit various forms of input, and suggests a computer programming language to learn based upon the input submitted_ 
+#### _This is a simple HTML site, which allows the user to submit various forms of input, and suggests a computer programming language to learn based upon the input submitted._ 
 
 ### _Link to GitHub Repository_
 
